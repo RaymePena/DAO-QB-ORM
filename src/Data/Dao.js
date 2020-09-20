@@ -243,8 +243,16 @@ function generateExecutives() {
 	}
 }
 
+// let employees = [];
+// let managers = [];
+// let executives = [];
+// let vendorData = [];
+// let customerData = [];
+// let contractorsData = [];
+contractors();
+customer();
+vendor();
 generateEmployees();
 generateManagers();
 generateExecutives();
-
-console.log(executives);
+console.log(JSON.stringify(contractorsData));

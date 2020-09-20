@@ -1,0 +1,23 @@
+{
+  "name": "DAO-QB-ORM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaymePena/DAO-QB-ORM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaymePena/DAO-QB-ORM/issues"
+  },
+  "homepage": "https://github.com/RaymePena/DAO-QB-ORM#readme",
+  "devDependencies": {
+    "faker": "^5.1.0"
+  }
+}
