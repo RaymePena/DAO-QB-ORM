@@ -3,8 +3,6 @@ const Customer = require('./js/Customer');
 const Employee = require('./js/Employee');
 const Executive = require('./js/Executive');
 const Manager = require('./js/Manager');
-const Nonemployee = require('./js/Nonemployee');
-const Person = require('./js/Person');
 const Vendor = require('./js/Vendor');
 let data = require('./Data/data.json');
 
@@ -47,7 +45,6 @@ data.forEach((d) => {
             contractors.push(new Contractor(fname, mname, lname, dob, phone, email, street, city, state, zip, company))
         })
     }
-
    
 });
 
